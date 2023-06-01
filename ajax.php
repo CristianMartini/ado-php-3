@@ -30,8 +30,9 @@ $usuario = $_SESSION["usuario"];
     function popular(dados) {
         dadosLidos = dados;
         let tabela = "" +
-            "<table >" +
-                        '    <tr>' +
+            '<table class="table table-striped-columns table-bordered ">' +
+            '    <tbody class="table-group-divider tabelaEst">' +
+            '    <tr>' +
             '        <th scope="column">Chave</th>' +
             '        <th scope="column">Area construida em m2</th>' +
             '        <th scope="column">Area total em m2</th>' +
